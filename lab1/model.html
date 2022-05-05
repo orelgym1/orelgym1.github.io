@@ -1,0 +1,409 @@
+﻿<html>
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="GENERATOR" content="Microsoft FrontPage 4.0">
+<meta name="ProgId" content="FrontPage.Editor.Document">
+<title>Движение тела, брошенного под углом к горизонту</title>
+</head>
+
+<body>
+
+<h2 style="margin-top:3.0pt;margin-right:0cm;margin-bottom:3.0pt;margin-left:
+18.0pt;text-indent:-18.0pt;page-break-after:avoid;mso-list:l2 level2 lfo1;
+mso-hyphenate:none;tab-stops:list 18.0pt" align="center"><font color="#808080"><o:p>
+ &#1050;&#1086;&#1084;&#1087;&#1100;&#1102;&#1090;&#1077;&#1088;&#1085;&#1072;&#1103;
+&#1084;&#1086;&#1076;&#1077;&#1083;&#1100; <span style="font-family: Times New Roman; mso-fareast-font-family: Times New Roman; mso-ansi-language: RU; mso-fareast-language: RU; mso-bidi-language: AR-SA">«&#1055;&#1086;&#1087;&#1072;&#1076;&#1072;&#1085;&#1080;&#1077;
+&#1074; &#1087;&#1083;&#1086;&#1097;&#1072;&#1076;&#1082;&#1091;<b style="mso-bidi-font-weight:
+normal"> </b>&#1090;&#1077;&#1083;&#1072;,
+&#1073;&#1088;&#1086;&#1096;&#1077;&#1085;&#1085;&#1086;&#1075;&#1086;
+&#1087;&#1086;&#1076; &#1091;&#1075;&#1083;&#1086;&#1084; &#1082;
+&#1075;&#1086;&#1088;&#1080;&#1079;&#1086;&#1085;&#1090;&#1091;»</span><span style="font-family: Times New Roman; mso-fareast-font-family: Times New Roman; mso-ansi-language: RU; mso-fareast-language: RU; mso-bidi-language: AR-SA">
+</span>в электронных
+таблицах</font></o:p>
+</h2>
+<hr>
+<p class="MsoNormal" style="text-indent: 0"><b>
+ &#1050;&#1086;&#1084;&#1087;&#1100;&#1102;&#1090;&#1077;&#1088;&#1085;&#1072;&#1103;
+&#1084;&#1086;&#1076;&#1077;&#1083;&#1100; </b><span style="font-family: Times New Roman; mso-fareast-font-family: Times New Roman; mso-ansi-language: RU; mso-fareast-language: RU; mso-bidi-language: AR-SA"><b>«&#1055;&#1086;&#1087;&#1072;&#1076;&#1072;&#1085;&#1080;&#1077;
+&#1074; &#1087;&#1083;&#1086;&#1097;&#1072;&#1076;&#1082;&#1091;<b style="mso-bidi-font-weight:
+normal"> </b>&#1090;&#1077;&#1083;&#1072;,
+&#1073;&#1088;&#1086;&#1096;&#1077;&#1085;&#1085;&#1086;&#1075;&#1086;
+&#1087;&#1086;&#1076; &#1091;&#1075;&#1083;&#1086;&#1084; &#1082;
+&#1075;&#1086;&#1088;&#1080;&#1079;&#1086;&#1085;&#1090;&#1091;»</b></span><b>в электронных
+таблицах</b><span style="font-family: Times New Roman; mso-fareast-font-family: Times New Roman; mso-ansi-language: RU; mso-fareast-language: RU; mso-bidi-language: AR-SA"><b>.</b><font color="#808080">
+</font></span><span style="font-family:&quot;Times New Roman&quot;">На
+основе формальной модели<b style="mso-bidi-font-weight:normal">
+</b>«Попадание в площадку тела, брошенного
+под углом к горизонту»,
+построить и исследовать компьютерную
+модель в электронных таблицах <span lang="EN-US" style="font-family:Arial;mso-ansi-language:EN-US">Microsoft
+Excel </span>
+</span>
+ <span lang="EN-US" style="mso-ansi-language: EN-US">или</span><span style="font-family:&quot;Times New Roman&quot;"> <span lang="EN-US" style="font-family:Arial;mso-ansi-language:EN-US">
+StarOffice</span><span lang="EN-US" style="font-family:Arial">
+</span><span lang="EN-US" style="font-family:
+Arial;mso-ansi-language:EN-US">Calc</span>
+</span>
+<span lang="EN-US" style="font-family: Times New Roman; mso-ansi-language: EN-US">
+</span><span style="font-family:&quot;Times New Roman&quot;"> <span lang="EN-US" style="font-family: Times New Roman; mso-ansi-language: EN-US">
+(</span></span><span lang="EN-US" style="mso-ansi-language: EN-US"><font face="Arial">Open</font></span><span style="font-family:&quot;Times New Roman&quot;"><span lang="EN-US" style="font-family:Arial;mso-ansi-language:EN-US">Office</span><span lang="EN-US" style="font-family:Arial">
+</span><span lang="EN-US" style="font-family:
+Arial;mso-ansi-language:EN-US">Calc</span></span><span lang="EN-US" style="mso-ansi-language: EN-US">)</span>.<span style="font-family:&quot;Times New Roman&quot;"><o:p>
+</o:p>
+</o:p>
+</span>
+</p>
+<p class="MsoNormal" style="text-indent: 0">Выделим в таблице
+определенные ячейки для ввода значений
+начальной скорости<i style="mso-bidi-font-style:normal"> </i><span lang="EN-US" style="font-family:&quot;Courier New&quot;;mso-bidi-font-family:
+&quot;Times New Roman&quot;;mso-ansi-language:EN-US">v</span><sub><span style="font-family:
+&quot;Courier New&quot;;mso-bidi-font-family:&quot;Times New Roman&quot;">0</span></sub>
+и угла <span style="font-family:&quot;Courier New&quot;;mso-bidi-font-family:&quot;Times New Roman&quot;">&#945;</span><i style="mso-bidi-font-style:normal">
+</i>и вычислим по формулам 3.1 значения
+координат тела <i style="mso-bidi-font-style:normal"><span lang="EN-US" style="font-family:&quot;Courier New&quot;;mso-bidi-font-family:&quot;Times New Roman&quot;;
+mso-ansi-language:EN-US">x</span></i> и <span lang="EN-US" style="font-family:
+&quot;Courier New&quot;;mso-bidi-font-family:&quot;Times New Roman&quot;;mso-ansi-language:EN-US"><i>y</i></span>
+для определенных значений времени <span lang="EN-US" style="font-family:&quot;Courier New&quot;;
+mso-bidi-font-family:&quot;Times New Roman&quot;;mso-ansi-language:EN-US"><i>t</i></span>
+с заданным интервалом.<o:p>
+</o:p>
+</p>
+<p class="MsoNormal" style="text-indent: 0">Для
+преобразования значений углов из градусов
+в радианы используем функцию <i style="mso-bidi-font-style:normal">РАДИАНЫ()</i>.
+<o:p>
+&nbsp;
+</p>
+<table class="MsoNormalTable" border="0" cellspacing="0" cellpadding="0" style="border-collapse: collapse; mso-table-layout-alt: fixed; mso-padding-alt: 0cm 5.4pt 0cm 5.4pt" width="100%">
+  <tr style="mso-yfti-irow:0;height:15.15pt">
+    <td width="30" valign="top" style="border: 3 groove #FFFFFF; padding-left: 5.4pt; padding-right: 5.4pt; padding-top: 0cm; padding-bottom: 0cm">
+      <p class="MsoNormal" style="text-indent:0cm" align="center"><b style="mso-bidi-font-weight:
+  normal"><span style="font-size:11.0pt;mso-bidi-font-size:12.0pt"><!--[if gte vml 1]><v:shape
+   id="_x0000_i1029" type="#_x0000_t75" style='width:21.75pt;height:16.5pt'
+   fillcolor="window">
+   <v:imagedata src="file:///D:/DOCUME~1/NDU/LOCALS~1/Temp/msohtml1/01/clip_image003.wmz"
+    o:title="BD18215_"/>
+  </v:shape><![endif]--><img border="0" src="comput1.gif" width="30" height="23"></span></b><o:p>
+      </o:p>
+      </p>
+    </td>
+    <td width="826" valign="top" style="border: 3 groove #FFFFFF; padding-left: 5.4pt; padding-right: 5.4pt; padding-top: 0cm; padding-bottom: 0cm">
+      <p class="MsoNormal" style="text-indent:0cm"><b style="mso-bidi-font-weight:
+  normal">&#1055;&#1088;&#1086;&#1077;&#1082;&#1090; «&#1044;&#1074;&#1080;&#1078;&#1077;&#1085;&#1080;&#1077;
+      &#1090;&#1077;&#1083;&#1072;,
+      &#1073;&#1088;&#1086;&#1096;&#1077;&#1085;&#1085;&#1086;&#1075;&#1086;
+      &#1087;&#1086;&#1076; &#1091;&#1075;&#1083;&#1086;&#1084; &#1082;
+      &#1075;&#1086;&#1088;&#1080;&#1079;&#1086;&#1085;&#1090;&#1091;»</b></p>
+    </td>
+  </tr>
+</table>
+<table class="MsoNormalTable" border="0" cellspacing="0" cellpadding="0" style="border-collapse: collapse; mso-table-layout-alt: fixed; mso-padding-alt: 0cm 5.4pt 0cm 5.4pt" width="100%">
+  <tr style="mso-yfti-irow:0;page-break-inside:avoid;height:7.6pt">
+    <td width="30" valign="top" style="height: 7.6pt; border: 3 groove #FFFFFF; padding-left: 5.4pt; padding-right: 5.4pt; padding-top: 0cm; padding-bottom: 0cm">
+      <p class="MsoNormal" align="center" style="text-indent: 0cm">1
+    </td>
+    <td width="468" valign="top" style="height: 7.6pt; border: 3 groove #FFFFFF; padding-left: 5.4pt; padding-right: 5.4pt; padding-top: 0cm; padding-bottom: 0cm">
+      <p class="a" style="margin:0cm;margin-bottom:.0001pt;text-indent:0cm;
+  mso-hyphenate:auto">Запустить электронные таблицы <span lang="EN-US" style="font-family:Arial;mso-ansi-language:
+EN-US">StarOffice Calc.</span>
+      </p>
+      <p class="a" style="margin:0cm;margin-bottom:.0001pt;text-indent:0cm;
+  mso-hyphenate:auto">Для ввода начальной скорости
+      будем использовать ячейку <span lang="EN-US" style="mso-ansi-language:EN-US">B</span>1,
+      а для ввода угла – ячейку <span lang="EN-US" style="mso-ansi-language:EN-US">B</span>2.<o:p>
+      &nbsp;
+      </p>
+      <p class="a" style="margin:0cm;margin-bottom:.0001pt;text-indent:0cm;
+  mso-hyphenate:auto"></o:p>
+      </p>
+    </td>
+    <td width="335" rowspan="4" valign="top" style="height: 7.6pt; border: 3 groove #FFFFFF; padding-left: 5.4pt; padding-right: 5.4pt; padding-top: 0cm; padding-bottom: 0cm">
+      <p class="a" align="center" style="margin:0cm;margin-bottom:.0001pt;text-align:
+  center;text-indent:0cm;mso-hyphenate:auto"><!--[if gte vml 1]><v:shapetype
+   id="_x0000_t75" coordsize="21600,21600" o:spt="75" o:preferrelative="t"
+   path="m@4@5l@4@11@9@11@9@5xe" filled="f" stroked="f">
+   <v:stroke joinstyle="miter"/>
+   <v:formulas>
+    <v:f eqn="if lineDrawn pixelLineWidth 0"/>
+    <v:f eqn="sum @0 1 0"/>
+    <v:f eqn="sum 0 0 @1"/>
+    <v:f eqn="prod @2 1 2"/>
+    <v:f eqn="prod @3 21600 pixelWidth"/>
+    <v:f eqn="prod @3 21600 pixelHeight"/>
+    <v:f eqn="sum @0 0 1"/>
+    <v:f eqn="prod @6 1 2"/>
+    <v:f eqn="prod @7 21600 pixelWidth"/>
+    <v:f eqn="sum @8 21600 0"/>
+    <v:f eqn="prod @7 21600 pixelHeight"/>
+    <v:f eqn="sum @10 21600 0"/>
+   </v:formulas>
+   <v:path o:extrusionok="f" gradientshapeok="t" o:connecttype="rect"/>
+   <o:lock v:ext="edit" aspectratio="t"/>
+  </v:shapetype><v:shape id="_x0000_i1025" type="#_x0000_t75" style='width:141pt;
+   height:132pt'>
+   <v:imagedata src="file:///D:/DOCUME~1/NDU/LOCALS~1/Temp/msohtml1/01/clip_image001.png"
+    o:title="Z6_5-1"/>
+  </v:shape><![endif]--><img border="0" src="Z6_5-1.png" width="335" height="314"><o:p>
+      </o:p>
+      </p>
+    </td>
+  </tr>
+  <tr style="mso-yfti-irow:1;page-break-inside:avoid;height:7.6pt">
+    <td width="30" valign="top" style="height: 7.6pt; border: 3 groove #FFFFFF; padding-left: 5.4pt; padding-right: 5.4pt; padding-top: 0cm; padding-bottom: 0cm">
+      <p class="MsoNormal" align="center" style="text-align:center;text-indent:0cm">2<o:p>
+      </o:p>
+      </p>
+    </td>
+    <td width="468" valign="top" style="height: 7.6pt; border: 3 groove #FFFFFF; padding-left: 5.4pt; padding-right: 5.4pt; padding-top: 0cm; padding-bottom: 0cm">
+      <p class="a" style="margin:0cm;margin-bottom:.0001pt;text-indent:0cm;
+  mso-hyphenate:auto">Введем в ячейки <span lang="EN-US" style="mso-ansi-language:
+  EN-US">A</span>5:<span lang="EN-US" style="mso-ansi-language:EN-US">A</span>16
+      значения времени с интервалом в 0,2 с.<o:p>
+      </o:p>
+      </p>
+    </td>
+  </tr>
+  <tr style="mso-yfti-irow:2;page-break-inside:avoid;height:7.6pt">
+    <td width="30" valign="top" style="height: 7.6pt; border: 3 groove #FFFFFF; padding-left: 5.4pt; padding-right: 5.4pt; padding-top: 0cm; padding-bottom: 0cm">
+      <p class="MsoNormal" align="center" style="text-align:center;text-indent:0cm"><span lang="EN-US" style="mso-ansi-language:EN-US">3<o:p>
+      </o:p>
+      </span></p>
+    </td>
+    <td width="468" valign="top" style="height: 7.6pt; border: 3 groove #FFFFFF; padding-left: 5.4pt; padding-right: 5.4pt; padding-top: 0cm; padding-bottom: 0cm">
+      <p class="a" style="margin:0cm;margin-bottom:.0001pt;text-indent:0cm;
+  mso-hyphenate:auto">В ячейки <span lang="EN-US" style="mso-ansi-language:EN-US">B</span>5
+      и <span lang="EN-US" style="mso-ansi-language:EN-US">C</span>5
+      введем формулы:<o:p>
+      </o:p>
+      </p>
+      <p class="a" style="margin:0cm;margin-bottom:.0001pt;text-indent:0cm;
+  mso-hyphenate:auto"><span lang="EN-US" style="mso-ansi-language:EN-US">=$B$1*COS(</span>РАДИАНЫ<span lang="EN-US" style="mso-ansi-language:EN-US">($B$2))*A5<o:p>
+      </o:p>
+      </span></p>
+      <p class="a" style="margin:0cm;margin-bottom:.0001pt;text-indent:0cm;
+  mso-hyphenate:auto"><span lang="EN-US" style="mso-ansi-language:EN-US">=$B$1*SIN(</span>РАДИАНЫ<span lang="EN-US" style="mso-ansi-language:EN-US">($B$2))*A5-4,9*A5*A5<o:p>
+      </o:p>
+      </span></p>
+    </td>
+  </tr>
+  <tr style="mso-yfti-irow:3;mso-yfti-lastrow:yes;page-break-inside:avoid;
+  height:7.6pt">
+    <td width="30" valign="top" style="height: 7.6pt; border: 3 groove #FFFFFF; padding-left: 5.4pt; padding-right: 5.4pt; padding-top: 0cm; padding-bottom: 0cm">
+      <p class="MsoNormal" align="center" style="text-align:center;text-indent:0cm">4<o:p>
+      </o:p>
+      </p>
+    </td>
+    <td width="468" valign="top" style="height: 7.6pt; border: 3 groove #FFFFFF; padding-left: 5.4pt; padding-right: 5.4pt; padding-top: 0cm; padding-bottom: 0cm">
+      <p class="a" style="margin:0cm;margin-bottom:.0001pt;text-indent:0cm;
+  mso-hyphenate:auto">Скопируем формулы в ячейки В6:В16
+      и С6:С16 соответственно.<o:p>
+      </o:p>
+      </p>
+    </td>
+  </tr>
+</table>
+<p class="MsoNormal" style="text-indent: 0">Визуализируем модель, построив график зависимости
+координаты <span lang="EN-US" style="font-family:&quot;Courier New&quot;;
+mso-bidi-font-family:&quot;Times New Roman&quot;;mso-ansi-language:EN-US">y</span>
+от координаты <span lang="EN-US" style="font-family:&quot;Courier New&quot;;mso-bidi-font-family:
+&quot;Times New Roman&quot;;mso-ansi-language:EN-US">x</span><i style="mso-bidi-font-style:
+normal"><span lang="EN-US"> </span></i>(траекторию движения
+тела).<o:p>
+</o:p>
+</p>
+<table class="MsoNormalTable" border="0" cellspacing="0" cellpadding="0" style="border-collapse: collapse; mso-table-layout-alt: fixed; mso-padding-alt: 0cm 5.4pt 0cm 5.4pt" width="100%">
+  <tr style="mso-yfti-irow:0;mso-yfti-lastrow:yes;page-break-inside:avoid">
+    <td width="29" valign="top" style="border: 3 groove #FFFFFF; padding-left: 5.4pt; padding-right: 5.4pt; padding-top: 0cm; padding-bottom: 0cm">
+      <p class="MsoNormal" align="center" style="text-align:center;text-indent:0cm">5<o:p>
+      </o:p>
+      </p>
+    </td>
+    <td width="324" valign="top" style="border: 3 groove #FFFFFF; padding-left: 5.4pt; padding-right: 5.4pt; padding-top: 0cm; padding-bottom: 0cm">
+      <p class="a" style="margin:0cm;margin-bottom:.0001pt;text-indent:0cm;
+  mso-hyphenate:auto">Построить диаграмму типа <i style="mso-bidi-font-style:
+  normal">График</i>, в которой используется в
+      качестве категории диапазон ячеек <span lang="EN-US" style="mso-ansi-language:EN-US">B</span>5:<span lang="EN-US" style="mso-ansi-language:EN-US">B</span>16,
+      а в качестве значений<span style="mso-spacerun:yes">&nbsp;
+      </span>- диапазон ячеек С5:С16.<o:p>
+      </o:p>
+      </p>
+    </td>
+    <td width="480" valign="top" style="border: 3 groove #FFFFFF; padding-left: 5.4pt; padding-right: 5.4pt; padding-top: 0cm; padding-bottom: 0cm">
+      <p class="a" align="center" style="margin:0cm;margin-bottom:.0001pt;text-align:
+  center;text-indent:0cm;mso-hyphenate:auto"><span lang="EN-US" style="mso-ansi-language:
+  EN-US"><!--[if gte vml 1]><v:shape id="_x0000_i1027" type="#_x0000_t75"
+   style='width:140.25pt;height:90.75pt'>
+   <v:imagedata src="file:///D:/DOCUME~1/NDU/LOCALS~1/Temp/msohtml1/01/clip_image003.png"
+    o:title="Z6_5-2"/>
+  </v:shape><![endif]-->
+      <img border="0" src="Z6_5-2.png" width="480" height="311"><o:p>
+      </o:p>
+      </span></p>
+    </td>
+  </tr>
+</table>
+<p class="MsoNormal">Исследуем модель и определим с
+заданной точностью 0,1 градуса значения
+диапазона изменений угла, которые
+обеспечивают попадание в площадку,
+находящуюся на расстоянии 25 м и длиной 2 м,
+при заданной начальной скорости 17 м/с.
+Воспользуемся для этого методом <i style="mso-bidi-font-style:
+normal">Подбор параметра</i>.<o:p>
+</o:p>
+</p>
+<table class="MsoNormalTable" border="0" cellspacing="0" cellpadding="0" style="border-collapse: collapse; mso-table-layout-alt: fixed; mso-padding-alt: 0cm 5.4pt 0cm 5.4pt" width="100%">
+  <tr style="mso-yfti-irow:0;page-break-inside:avoid">
+    <td width="44" valign="top" style="border: 3 groove #FFFFFF; padding-top: 0cm; padding-bottom: 0cm">
+      <p class="MsoNormal" align="center" style="text-align:center;text-indent:0cm">6<o:p>
+      </o:p>
+      </p>
+    </td>
+    <td width="837" colspan="4" valign="top" style="border: 3 groove #FFFFFF; padding-top: 0cm; padding-bottom: 0cm">
+      <p class="a" style="margin:0cm;margin-bottom:.0001pt;text-indent:0cm;
+  mso-hyphenate:auto">Установить для ячеек точность
+      один знак после запятой.<o:p>
+      </o:p>
+      </p>
+    </td>
+  </tr>
+  <tr style="mso-yfti-irow:1;page-break-inside:avoid;mso-row-margin-right:7.45pt">
+    <td width="44" valign="top" style="border: 3 groove #FFFFFF; padding-top: 0cm; padding-bottom: 0cm">
+      <p class="MsoNormal" align="center" style="text-align:center;text-indent:0cm">7<o:p>
+      </o:p>
+      </p>
+    </td>
+    <td width="290" colspan="2" valign="top" style="border: 3 groove #FFFFFF; padding-top: 0cm; padding-bottom: 0cm">
+      <p class="a" style="margin:0cm;margin-bottom:.0001pt;text-indent:0cm;
+  mso-hyphenate:auto">Ввести в ячейки <span lang="EN-US" style="mso-ansi-language:
+  EN-US">B</span>19 и <span lang="EN-US" style="mso-ansi-language:EN-US">B</span>20
+      значения <span style="mso-spacerun:yes">&nbsp;</span>начальной
+      скорости <span lang="EN-US" style="mso-ansi-language:EN-US">V</span><sub>0</sub>
+      = 17 м/<span lang="EN-US" style="mso-ansi-language:EN-US">c</span> и
+      угла &#945; = 31 град, а в ячейку <span lang="EN-US" style="mso-ansi-language:EN-US">B</span>22
+      формулу для вычисления координаты <span lang="EN-US" style="mso-ansi-language:EN-US">X</span><span lang="EN-US">
+      </span>мячика для заданных начальных
+      условий: =B19^2*SIN(РАДИАНЫ(2*B20))/9,81<o:p>
+      </o:p>
+      </p>
+    </td>
+    <td width="525" valign="top" style="border: 3 groove #FFFFFF; padding-top: 0cm; padding-bottom: 0cm">
+      <p class="MsoNormal" align="center" style="text-align:center;text-indent:0cm"><!--[if gte vml 1]><v:shape
+   id="_x0000_i1028" type="#_x0000_t75" style='width:1in;height:40.5pt'>
+   <v:imagedata src="file:///D:/DOCUME~1/NDU/LOCALS~1/Temp/msohtml1/01/clip_image005.png"
+    o:title="Z6_5-3"/>
+  </v:shape><![endif]-->
+      <img border="0" src="Z6_5-3.png" width="140" height="79"><o:p>
+      </o:p>
+      </p>
+    </td>
+    <td style="border: 3 groove #FFFFFF; padding-top: 0cm; padding-bottom: 0cm" width="10">
+      <p class="MsoNormal">&nbsp;</td>
+  </tr>
+  <tr style="mso-yfti-irow:2;page-break-inside:avoid">
+    <td width="44" valign="top" style="border: 3 groove #FFFFFF; padding-top: 0cm; padding-bottom: 0cm">
+      <p class="MsoNormal" align="center" style="text-align:center;text-indent:0cm">8<o:p>
+      </o:p>
+      </p>
+    </td>
+    <td width="289" valign="top" style="border: 3 groove #FFFFFF; padding-top: 0cm; padding-bottom: 0cm">
+      <p class="a" style="margin:0cm;margin-bottom:.0001pt;text-indent:0cm;
+  mso-hyphenate:auto">Выделить ячейку В22 и ввести
+      команду [Сервис-Подбор параметра…]. <o:p>
+      </o:p>
+      </p>
+      <p class="a" style="margin:0cm;margin-bottom:.0001pt;text-indent:0cm;
+  mso-hyphenate:auto">На появившейся диалоговой
+      панели ввести в поле <i style="mso-bidi-font-style:normal">Конечное
+      значение</i> координату ближнего края
+      площадки – 25.<o:p>
+      </o:p>
+      </p>
+      <p class="a" style="margin:0cm;margin-bottom:.0001pt;text-indent:0cm;
+  mso-hyphenate:auto">В поле <i style="mso-bidi-font-style:normal">изменяемая
+      ячейка</i> ввести адрес ячейки,
+      содержащей значение угла (в данном
+      случае $В$20).<o:p>
+      </o:p>
+      </p>
+    </td>
+    <td width="542" colspan="3" valign="top" style="border: 3 groove #FFFFFF; padding-top: 0cm; padding-bottom: 0cm">
+      <p class="a" align="center" style="margin:0cm;margin-bottom:.0001pt;text-align:
+  center;text-indent:0cm;mso-hyphenate:auto"><!--[if gte vml 1]><v:shape id="_x0000_i1029"
+   type="#_x0000_t75" style='width:141pt;height:42.75pt'>
+   <v:imagedata src="file:///D:/DOCUME~1/NDU/LOCALS~1/Temp/msohtml1/01/clip_image007.png"
+    o:title="Z6_5-4"/>
+  </v:shape><![endif]-->
+      <img border="0" src="Z6_5-4.png" width="542" height="165"><o:p>
+      </o:p>
+      </p>
+    </td>
+  </tr>
+  <tr style="mso-yfti-irow:3;page-break-inside:avoid">
+    <td width="44" valign="top" style="border: 3 groove #FFFFFF; padding-top: 0cm; padding-bottom: 0cm">
+      <p class="MsoNormal" align="center" style="text-align:center;text-indent:0cm">9<o:p>
+      </o:p>
+      </p>
+    </td>
+    <td width="289" valign="top" style="border: 3 groove #FFFFFF; padding-top: 0cm; padding-bottom: 0cm">
+      <p class="a" style="margin:0cm;margin-bottom:.0001pt;text-indent:0cm;
+  mso-hyphenate:auto">После щелчка по кнопке <i style="mso-bidi-font-style:
+  normal">Да </i>на появившейся панели <i style="mso-bidi-font-style:normal"><span lang="EN-US" style="mso-ansi-language:EN-US">StarOffice</span><span lang="EN-US">
+      </span><span lang="EN-US" style="mso-ansi-language:EN-US">Calc</span></i><span lang="EN-US">
+      </span>в ячейку В20 будет записано значение
+      29,0. <o:p>
+      </o:p>
+      </p>
+    </td>
+    <td width="542" colspan="3" valign="top" style="border: 3 groove #FFFFFF; padding-top: 0cm; padding-bottom: 0cm" align="center">
+      <p class="a" align="center" style="margin:0cm;margin-bottom:.0001pt;text-align:
+  center;text-indent:0cm;mso-hyphenate:auto"><!--[if gte vml 1]><v:shape id="_x0000_i1026"
+   type="#_x0000_t75" style='width:140.25pt;height:52.5pt'>
+   <v:imagedata src="file:///D:/DOCUME~1/NDU/LOCALS~1/Temp/msohtml1/01/clip_image009.png"
+    o:title="Z6_5-5"/>
+  </v:shape><![endif]-->
+      <img border="0" src="Z6_5-5.png" width="290" height="109"><o:p>
+      </o:p>
+      </p>
+    </td>
+  </tr>
+  <tr style="mso-yfti-irow:4;page-break-inside:avoid">
+    <td width="44" valign="top" style="border: 3 groove #FFFFFF; padding-top: 0cm; padding-bottom: 0cm">
+      <p class="MsoNormal" align="center" style="text-align:center;text-indent:0cm">10<o:p>
+      </o:p>
+      </p>
+    </td>
+    <td width="837" colspan="4" valign="top" style="border: 3 groove #FFFFFF; padding-top: 0cm; padding-bottom: 0cm">
+      <p class="a" style="margin:0cm;margin-bottom:.0001pt;text-indent:0cm;
+  mso-hyphenate:auto">Повторить процедуру подбора
+      параметра для попадания в дальний край
+      площадки, в ячейке В20 получим значение
+      33,2. Таким образом, существует диапазон
+      значений угла бросания от 29,0 до 33,2
+      градусов, в котором обеспечивается
+      попадание в площадку.<o:p>
+      </o:p>
+      </p>
+    </td>
+  </tr>
+  <tr style="mso-yfti-irow:5;mso-yfti-lastrow:yes;page-break-inside:avoid">
+    <td width="44" valign="top" style="border: 3 groove #FFFFFF; padding-top: 0cm; padding-bottom: 0cm">
+      <p class="MsoNormal" align="center" style="text-align:center;text-indent:0cm">11<o:p>
+      </o:p>
+      </p>
+    </td>
+    <td width="837" colspan="4" valign="top" style="border: 3 groove #FFFFFF; padding-top: 0cm; padding-bottom: 0cm">
+      <p class="a" style="margin:0cm;margin-bottom:.0001pt;text-indent:0cm;
+  mso-hyphenate:auto">Повторить процедуру
+      определения диапазона углов при
+      начальном значении 55 град, получим
+      значения предельных углов 56,8 и 61,0
+      градуса.
+      </p>
+    </td>
+  </tr>
+</table>
+</body>
+
+</html>
