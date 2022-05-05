@@ -1,0 +1,122 @@
+﻿<!DOCTYPE html>
+<html lang="ru">
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Модель «Жертва-хищник с отловом»</title>
+</head>
+
+<body>
+
+<h2 style="margin-top:3.0pt;margin-right:0cm;margin-bottom:3.0pt;margin-left:
+18.0pt;text-indent:-18.0pt;page-break-after:avoid;mso-list:l2 level2 lfo2;
+mso-hyphenate:none;tab-stops:list 18.0pt" align="center"><font color="#808080">
+Формальная <span style="font-family: Times New Roman; mso-fareast-font-family: Times New Roman; mso-ansi-language: RU; mso-fareast-language: RU; mso-bidi-language: AR-SA">модель
+«Жертва-хищник с отловом»</span></font></h2>
+<hr>
+<p class="MsoPlainText" align="left"><span lang="EN-US" style="mso-ansi-language:EN-US">
+</o:p><b><font color="#000000"><span style="mso-list: Ignore; font-family: Times New Roman">Задание.<span style="font-style: normal; font-variant: normal; font-size: 7.0pt; font-family: Times New Roman">&nbsp;&nbsp;&nbsp;
+</span></span></font></b></span><span lang="EN-US" style="mso-ansi-language:EN-US"><span style="font-family:&quot;Times New Roman&quot;">Построить
+формальную модель, описывающую численность
+популяций в модели «Жертва-хищник с отловом<i style="mso-bidi-font-style:normal">»</i>,
+в которой производится отлов не только
+жертв, но и хищников.<o:p>
+</o:p>
+</span>
+</span></p>
+<p class="MsoNormal" style="text-indent:0cm"><b>Формальная
+модель. </b>Популяции обычно существуют не
+изолированно, а во взаимодействии с другими
+популяциями. Наиболее важным типом
+является взаимодействие между жертвами и
+хищниками (например, караси-щуки, зайцы-волки
+и т.д.). В модели <i style="mso-bidi-font-style:normal">жертва-хищник</i>
+количество жертв <i style="mso-bidi-font-style:normal"><span lang="EN-US" style="mso-ansi-language:EN-US">x<sub>n</sub></span></i>
+и количество хищников<span style="font-family:&quot;Courier New&quot;;mso-bidi-font-family:&quot;Times New Roman&quot;">
+</span><i style="mso-bidi-font-style:normal"><span lang="EN-US" style="mso-ansi-language:
+EN-US">y<sub>n</sub></span></i> связаны между собой.
+Количество встреч жертв с хищниками можно
+считать пропорциональной произведению
+собственно количеств жертв и хищников, а
+коэффициент <i style="mso-bidi-font-style:normal"><span lang="EN-US" style="mso-ansi-language:EN-US">f</span></i>
+характеризует возможность гибели жертвы
+при встрече с хищниками. В этом случае
+численность популяции жертв уменьшается на
+величину<span style="mso-spacerun:yes">&nbsp; </span><i style="mso-bidi-font-style:normal"><span lang="EN-US" style="mso-ansi-language:
+EN-US">f</span>&#8729;<span lang="EN-US" style="mso-ansi-language:EN-US">x<sub>n</sub></span>&#8729;</i><i style="mso-bidi-font-style:
+normal"><span lang="EN-US" style="mso-ansi-language:EN-US">y<sub>n</sub></span></i><sub><span lang="EN-US" style="font-family:&quot;Courier New&quot;;mso-bidi-font-family:&quot;Times New Roman&quot;">
+</span></sub>и формула для расчета численности
+жертв принимает вид:<span style="font-family:&quot;Courier New&quot;;mso-bidi-font-family:&quot;Times New Roman&quot;"><o:p>
+</o:p>
+</span></p>
+<p class="MsoNormal" align="center" style="text-align:center"><i style="mso-bidi-font-style:
+normal"><span lang="EN-US" style="mso-ansi-language:EN-US">x<sub>n</sub></span><sub>+1</sub>
+= (</i><i style="mso-bidi-font-style:normal"><span lang="EN-US" style="mso-ansi-language:
+EN-US">a</span> - <span lang="EN-US" style="mso-ansi-language:EN-US">b</span>&#8729;</i><i style="mso-bidi-font-style:
+normal"><span lang="EN-US" style="mso-ansi-language:EN-US">x<sub>n</sub></span>)
+&#8729;</i><i style="mso-bidi-font-style:normal"><span lang="EN-US" style="mso-ansi-language:
+EN-US">x<sub>n</sub></span><sub><span lang="EN-US"> </span></sub><span style="mso-spacerun:yes">&nbsp;</span>-
+с - <span style="mso-spacerun:yes">&nbsp;</span><span lang="EN-US" style="mso-ansi-language:
+EN-US">f</span>&#8729;<span lang="EN-US" style="mso-ansi-language:EN-US">x<sub>n</sub></span>&#8729;</i><i style="mso-bidi-font-style:
+normal"><span lang="EN-US" style="mso-ansi-language:EN-US">y<sub>n</sub></span><sub><span lang="EN-US">
+</span></sub><o:p>
+</o:p>
+</i></p>
+<p class="MsoNormal">Численность популяции хищников
+в отсутствие жертв (в связи с отсутствием
+пищи) уменьшается, что можно описать
+рекуррентной формулой <o:p>
+</o:p>
+</p>
+<p class="MsoNormal" align="center" style="text-align:center;text-indent:0cm"><i style="mso-bidi-font-style:normal"><span lang="EN-US" style="mso-ansi-language:
+EN-US">y<sub>n</sub></span><sub>+1</sub> = </i><i style="mso-bidi-font-style:
+normal"><span lang="EN-US" style="mso-ansi-language:EN-US">d</span>&#8729;</i><i style="mso-bidi-font-style:normal"><span lang="EN-US" style="mso-ansi-language:
+EN-US">y<sub>n</sub></span><o:p>
+</o:p>
+</i></p>
+<p class="MsoNormal" style="text-indent:0cm">где значение
+коэффициента<span style="font-family:&quot;Courier New&quot;;mso-bidi-font-family:&quot;Times New Roman&quot;">
+</span><i style="mso-bidi-font-style:normal"><span lang="EN-US" style="mso-ansi-language:
+EN-US">d</span> &lt; 1</i>, характеризует скорость
+уменьшения численности популяции хищников.<o:p>
+</o:p>
+</p>
+<p class="MsoNormal">Увеличение популяции хищников
+можно считать пропорциональной
+произведению собственно количеств жертв и
+хищников, а коэффициент <i style="mso-bidi-font-style:normal"><span lang="EN-US" style="mso-ansi-language:
+EN-US">e</span></i><span lang="EN-US" style="font-family:&quot;Courier New&quot;;
+mso-bidi-font-family:&quot;Times New Roman&quot;"> </span>характеризует
+величину роста численности хищников за
+счет жертв. Тогда для численности хищников
+можно использовать формулу:<o:p>
+</o:p>
+</p>
+<p class="MsoNormal" align="center" style="text-align:center;text-indent:0cm"><i style="mso-bidi-font-style:normal"><span lang="EN-US" style="mso-ansi-language:
+EN-US">y<sub>n</sub></span><sub>+1</sub> = </i><i style="mso-bidi-font-style:
+normal"><span lang="EN-US" style="mso-ansi-language:EN-US">d</span>&#8729;</i><i style="mso-bidi-font-style:normal"><span lang="EN-US" style="mso-ansi-language:
+EN-US">y<sub>n</sub></span><span style="mso-spacerun:yes">&nbsp; </span>+ <span style="mso-spacerun:yes">&nbsp;</span><span lang="EN-US" style="mso-ansi-language:EN-US">e</span>&#8729;</i><i style="mso-bidi-font-style:
+normal"><span lang="EN-US" style="mso-ansi-language:EN-US">x<sub>n</sub></span>&#8729;</i><i style="mso-bidi-font-style:normal"><span lang="EN-US" style="mso-ansi-language:
+EN-US">y<sub>n</sub></span><o:p>
+</o:p>
+</i></p>
+<p class="MsoPlainText" align="left"><span lang="EN-US" style="mso-ansi-language:EN-US">На
+численность хищников влияет отлов,
+заданный коэффициентом <i>g</i>, поэтому
+численность хищников можно определить по
+формуле:</span></p>
+<p class="MsoPlainText" align="center"><i style="mso-bidi-font-style:normal"><span lang="EN-US" style="mso-ansi-language:
+EN-US">y<sub>n</sub></span><sub>+1</sub> = </i><i style="mso-bidi-font-style:
+normal"><span lang="EN-US" style="mso-ansi-language:EN-US">d</span>&#8729;</i><i style="mso-bidi-font-style:normal"><span lang="EN-US" style="mso-ansi-language:
+EN-US">y<sub>n</sub></span><span style="mso-spacerun:yes">&nbsp; </span>+ <span style="mso-spacerun:yes">&nbsp;</span><span lang="EN-US" style="mso-ansi-language:EN-US">e</span>&#8729;</i><i style="mso-bidi-font-style:
+normal"><span lang="EN-US" style="mso-ansi-language:EN-US">x<sub>n</sub></span>&#8729;</i><span lang="EN-US" style="mso-ansi-language:
+EN-US"><i style="mso-bidi-font-style:normal">y<sub>n</sub></i><i style="mso-bidi-font-style: normal; mso-ansi-language: EN-US"><sub>
+</sub></i></span><span lang="EN-US" style="mso-ansi-language:EN-US"><span style="mso-bidi-font-style: normal; mso-ansi-language: EN-US"><sub>&nbsp;
+</sub></span><i>-&nbsp; g</i></span></p>
+<hr>
+
+</body>
+
+</html>
