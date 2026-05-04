@@ -47,6 +47,9 @@ code.element::after {
 	content: ">";
 }
 .center{
-	width: 1200px;
-	margin: 0 auto;
+	margin-right: auto;
+	margin-left:  auto;
+	max-width: 960px;
+	padding-right: 10px;
+	padding-left:  10px;
 }
